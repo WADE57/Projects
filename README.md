@@ -40,3 +40,27 @@ To simulate the robot's trajectory in a fluid, we use the fluid toolbox of the F
 We read the mesh with the `Pyvista` library and display the mesh. 
 
 In the case of a single obstacle, we have the following figure.
+
+<details>
+  <summary>Single obstacle - Ray tracing view</summary>
+  <img src="images/raytracing.png" alt="Single obstacle ray tracing" width="700"/>
+</details>
+
+<details>
+  <summary>Single obstacle - Surface view</summary>
+  <img src="images/surface.png" alt="Single obstacle surface" width="700"/>
+</details>
+
+For a more complex environment (multiple obstacle configuration), we obtain the following visualizations.
+
+<details>
+  <summary>Multiple obstacles - Ray tracing view</summary>
+  <img src="images/raytracing2.png" alt="Multiple obstacles ray tracing" width="700"/>
+</details>
+
+<details>
+  <summary>Multiple obstacles - Surface view</summary>
+  <img src="images/surface2.png" alt="Multiple obstacles surface" width="700"/>
+</details>
+
+These plots illustrate both the geometry/obstacle layout and the resulting field evolution along the generated trajectory.
